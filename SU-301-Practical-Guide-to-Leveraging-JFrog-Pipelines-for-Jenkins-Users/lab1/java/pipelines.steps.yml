@@ -6,7 +6,7 @@ pipelines:
         image:
           custom:
             name: releases-docker.jfrog.io/jfrog/pipelines-u18java
-            tag: 14
+            tag: '14'
       environmentVariables:
         readOnly:
           virtualRepo: urs-mvn
